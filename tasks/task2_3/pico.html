@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="light dark">
+        <title>Task 2.3</title>
+    </head>
+    <body>
+        <style>
+            h1,h2,h3 {
+                --pico-font-weight: Bold;
+                --pico-color: #5C160D;
+            }
+            button {
+                --pico-color: #00B478;
+            }
+        </style>
+        <main class="container">
+            <h1>Showcasing pico</h1>
+            <h2>paragraph 1</h2>
+            <p1>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nostrum. 
+                Inventore asperiores minus temporibus officia illo numquam a nisi, 
+                cumque deleniti dolorum facere quod perspiciatis quae? Esse perferendis odit ut?
+            </p1>
+            <h2>paragraph 2</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolor, rem? Corporis odio nisi deserunt ab hic eligendi nostrum iste, odit quasi quaerat esse, suscipit recusandae. 
+                Fugiat nisi accusantium quaerat laborum!
+            </p>
+            <h2>paragraph 3 with hyperlinks</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                <a href="https://picocss.com/docs">hyperlink 1</a>
+                 Sint, dolore repellat aliquid atque hic aut omnis.
+                <a href="https://comp2850.github.io/ktor-guide/css/frameworks/">hyperlink 2</a>
+                 Dignissimos cum molestias atque repudiandae, vitae maxime aliquam voluptatem odit veritatis, suscipit possimus rerum!
+            </p>
+            <form action="https://httpbin.io/dump/request" method="POST">
+                <p>
+                    <label for="name">Enter name:</label>
+                    <input type="text" id="name" name="name">
+                </p>
+                <p>
+                    <label for="date">Enter date of birth</label>
+                    <input type="date" id="date" name="date">
+                </p>
+                <p>
+                    <button>submit</button>
+                </p>
+            </form>
+
+        </main>
+    </body>
+</html>
